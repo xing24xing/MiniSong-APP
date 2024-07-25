@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+body{
+    background-color: #f3f3f3;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-style:'Protest Riot ';
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: #0f1111;
+    color: aliceblue;
+   
+}
+.brand img{
+    width: 50px;
+    padding:0 10px ;
+}
+.brand{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+   
+}
+nav ul li{
+    padding: 0 12px;
+    
+}
+.container{
+    min-height: 72vh;
+    background-color: #0f1111;
+    color: aliceblue;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 23px;
+    background-image: url("song.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: #0f1111;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    font-size: 1.8rem;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songList{
+
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+.songInfo p{
+    font-size: 1rem;
+}
+.songItem{
+height: 50px;
+display: flex;
+background-color: aliceblue;
+width: 100%;
+color: #0f1111;
+margin: 12px 0;
+justify-content: space-evenly;
+align-items: center;
+border-radius: 32px;
+}
+
+.songItemsContainer{
+    margin-top: 74px;
+}
+.songItem img
+{
+width: 30px;
+margin: 0 23px;
+border-radius: 50%;
+
+}
+.timeStamp{
+    margin: 0 23px;
+   
+}
+.timeStamp i
+{
+    cursor: pointer;
+}
+
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
